@@ -1,0 +1,71 @@
+# 忽略大文件和二进制文件
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# 数据库文件
+*.db
+*.sqlite
+*.sqlite3
+
+# 日志文件
+*.log
+logs/
+
+# 临时文件
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# IDE文件
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# 构建输出
+target/
+build/
+out/
+bin/
+
+# 依赖目录
+node_modules/
+vendor/
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 配置文件（包含敏感信息）
+application-prod.yml
+application-prod.properties
+*.env
+
+# 文档生成输出
+docs/_build/
+docs/.doctrees/
+
+# 测试覆盖率报告
+coverage/
+*.lcov
+
+# 性能分析文件
+*.hprof
+*.dump
+
+# 其他大文件
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx 
