@@ -213,4 +213,11 @@ public interface OrderItemRepository extends JpaRepository<OrderItem, Long> {
      */
     @Query("SELECT oi FROM OrderItem oi WHERE oi.orderId = :orderId ORDER BY oi.subtotal DESC")
     List<OrderItem> findTopValueItemsByOrderId(@Param("orderId") Long orderId);
+
+    /**
+     * 根据订单ID删除订单明细
+     * 
+     * @param orderId 订单ID
+     */
+    void deleteByOrderId(Long orderId);
 } 

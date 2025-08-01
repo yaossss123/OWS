@@ -9,50 +9,50 @@
 - [x] Git版本控制初始化
 
 ### 第二阶段: 核心功能开发 🔄
-- [ ] 数据库设计
-  - [ ] 订单表设计
-  - [ ] 客户表设计
-  - [ ] 产品表设计
-  - [ ] 用户表设计
-- [ ] 实体类创建
-  - [ ] Order实体
-  - [ ] Customer实体
-  - [ ] Product实体
-  - [ ] User实体
-- [ ] Repository层实现
-  - [ ] OrderRepository
-  - [ ] CustomerRepository
-  - [ ] ProductRepository
-  - [ ] UserRepository
-- [ ] Service层实现
-  - [ ] OrderService
-  - [ ] CustomerService
-  - [ ] ProductService
-  - [ ] UserService
-- [ ] Controller层实现
-  - [ ] OrderController
-  - [ ] CustomerController
-  - [ ] ProductController
-  - [ ] AuthController
+- [x] 数据库设计
+  - [x] 订单表设计
+  - [x] 客户表设计
+  - [x] 产品表设计
+  - [x] 用户表设计
+- [x] 实体类创建
+  - [x] Order实体
+  - [x] Customer实体
+  - [x] Product实体
+  - [x] User实体
+- [x] Repository层实现
+  - [x] OrderRepository
+  - [x] CustomerRepository
+  - [x] ProductRepository
+  - [x] UserRepository
+- [x] Service层实现
+  - [x] OrderService
+  - [x] CustomerService
+  - [x] ProductService
+  - [x] UserService
+- [x] Controller层实现
+  - [x] OrderController
+  - [x] CustomerController
+  - [x] ProductController
+  - [x] AuthController
 
-### 第三阶段: 安全认证 ⏳
-- [ ] Spring Security配置
-- [ ] JWT实现
-- [ ] 用户认证接口
-- [ ] 权限控制
-- [ ] 密码加密
+### 第三阶段: 安全认证 ✅
+- [x] Spring Security配置
+- [x] JWT实现
+- [x] 用户认证接口
+- [x] 权限控制
+- [x] 密码加密
 
-### 第四阶段: API文档 ⏳
-- [ ] Swagger配置
-- [ ] API文档编写
-- [ ] 接口测试
-- [ ] 示例代码
+### 第四阶段: API文档 ✅
+- [x] Swagger配置
+- [x] API文档编写
+- [x] 接口测试
+- [x] 示例代码
 
-### 第五阶段: 测试 ⏳
-- [ ] 单元测试
-- [ ] 集成测试
-- [ ] API测试
-- [ ] 性能测试
+### 第五阶段: 测试 ✅
+- [x] 单元测试
+- [x] 集成测试
+- [x] API测试
+- [x] 性能测试
 
 ### 第六阶段: 部署 ⏳
 - [ ] Docker配置
