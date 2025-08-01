@@ -8,6 +8,7 @@ import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;
 
+import java.math.BigDecimal;
 import java.util.List;
 import java.util.Optional;
 
@@ -127,8 +128,8 @@ public interface CustomerRepository extends JpaRepository<Customer, Long> {
      * @return 客户分页结果
      */
     @Query("SELECT c FROM Customer c WHERE c.creditLimit BETWEEN :minCreditLimit AND :maxCreditLimit")
-    Page<Customer> findByCreditLimitBetween(@Param("minCreditLimit") String minCreditLimit,
-                                           @Param("maxCreditLimit") String maxCreditLimit,
+    Page<Customer> findByCreditLimitBetween(@Param("minCreditLimit") BigDecimal minCreditLimit,
+                                           @Param("maxCreditLimit") BigDecimal maxCreditLimit,
                                            Pageable pageable);
 
     /**

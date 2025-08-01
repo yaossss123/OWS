@@ -255,7 +255,7 @@ public class CustomerService {
     public Page<CustomerDTO> findByCreditLimitBetween(java.math.BigDecimal minCredit,
                                                       java.math.BigDecimal maxCredit,
                                                       Pageable pageable) {
-        log.debug("根据信用额度范围查找客户，范围: {} - {}", minCredit, maxCredit);
+        log.debug("根据信用额度范围查找客户，范围: {} - {}", minCredit.toString(), maxCredit.toString());
         return customerRepository.findByCreditLimitBetween(minCredit, maxCredit, pageable)
                 .map(CustomerDTO::fromEntity);
     }
